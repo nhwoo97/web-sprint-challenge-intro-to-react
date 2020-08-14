@@ -8,7 +8,7 @@ export default function Character(props){
     return (
         <div className="characters-container-wrapper">
            {character.map(ch =>{
-           return <Character key={props.name} 
+           return <Card key={props.name} 
             character={ch}
             />
         })} 
